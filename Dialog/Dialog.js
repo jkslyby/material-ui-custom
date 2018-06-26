@@ -279,7 +279,7 @@ var DialogInline = function (_Component2) {
           title = _props2.title;
 
 
-      if (!open) {
+      if (!open || autoDetectWindowHeight === false) {
         return;
       }
 
